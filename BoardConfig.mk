@@ -38,6 +38,7 @@ TARGET_RECOVERY_FSTAB := device/bq/gohan/recovery/etc/twrp.fstab
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 RECOVERY_SDCARD_ON_DATA := true
 TW_THEME := portrait_hdpi
+TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INCLUDE_CRYPTO := true
 TW_TARGET_USES_QCOM_BSP := true
